@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Створення форм </title>
+	<link rel="stylesheet" type="text/css" href="css/stylerome.css">
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<div class="formsubmit">
+	<form name="" action="send.php" method="POST">
+		<input class="submit" type="text" name="" placeholder="Прізвище" required="true" >
+		<br>
+		<input class="submit" type="text" name="name" placeholder="Ім'я" id="one" required="true">
+		<br>
+		<input class="submit" type="text" name="ПоБалькові" placeholder="ПоБалькові" id="one" required="true">
+		<br>
+		<input class="submit" type="number" name="age" id="age" placeholder="Скільки вам років? " required="true" >
+		<br>
+		<input class="submit" type="password" name="password" id="password" placeholder=" Пароль " required="true">
+		<br>
+		<input class="submit" type="radio" name="gender" value="Man" > M
+		<input class="submit" type="radio" name="gender" value="Women"> W
+		<br>
+		<label for="remmeber" style="color: white;"> Save Personal </label>
+		<input class="submit" type="checkbox" name="remember" id="remmeber" >
+		<br>
+		<select class="submit" name=" Ukrain" required="true" style="color: black; ">
+			<option value="Kuiv"> Київ </option>
+			<option value="Kharkiv"> Харьків </option>
+			<option value="Kharkiv"> Луганськ </option>
+			<option value="Kharkiv"> Одесса </option>
+			<option value="Kharkiv"> Л'вів </option>
+			<option value="Kharkiv"> Вінниця </option>
+			<option value="Kharkiv"> Полтава </option>
+			<option value="Kharkiv"> Ужгород </option>
+			<option value="Kharkiv"> Авангард </option>
+			<option value="Kharkiv"> Борщів </option>
+			<option value="Kharkiv"> Мєна </option>
+			<option value="Kharkiv"> Народичі </option>
+			<option value="Kharkiv"> Обертин </option>
+			<option value="Kharkiv"> Оболонь </option>
+			<option value="Kharkiv"> Сколе </option>
+
+		</select>
+		<br>
+		<input class="submit" type="submit" value="submit">
+		<br>
+		<label><button type="reset"> Зтерти русню </button></label>
+		<br>
+		<a href="javascript:history.back()" style="color: white;"> Back </a>
+	</form>
+	</div>
+</body>
+</html>
